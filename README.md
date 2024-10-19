@@ -29,7 +29,8 @@ git clone https://github.com/AngeloHale/hacker-scanner.git
 ### Instalação das dependências
 
 Execute o comando abaixo para instalar as dependências necessárias:
-```pip3 install -r requirements.txt
+```
+pip3 install -r requirements.txt
 ```
 
 ## Como usar
@@ -37,35 +38,35 @@ Execute o comando abaixo para instalar as dependências necessárias:
 ### Escaneamento básico
 
 Para escanear um website e verificar todas as vulnerabilidades, execute o seguinte comando no terminal:
-
+```
 python3 scanner.py https://exemplo.com
 ```
 
 ### Escanear vulnerabilidades específicas
 
 Se você quiser escanear apenas certas vulnerabilidades (por exemplo, SQL Injection e XSS), use as flags apropriadas:
-
+```
 python3 scanner.py https://exemplo.com --scan sql_injection xss
 ```
 
 ### Verificar força bruta
 
 Para realizar ataques de força bruta em um formulário de login, forneça a URL de login, o nome de usuário e a wordlist:
-
+```
 python3 scanner.py https://exemplo.com --brute-force https://exemplo.com/login admin wordlist.txt
 ```
 
 ### Verificar subdomínios
 
 Para escanear subdomínios, forneça um arquivo de texto com a lista de subdomínios:
-
+```
 python3 scanner.py https://exemplo.com --subdomains subdomains.txt
 ```
 
 ### Timeout personalizado
 
 Se o website demorar para responder, você pode definir um timeout (em segundos):
-
+```
 python3 scanner.py https://exemplo.com --timeout 10
 ```
 
