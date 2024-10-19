@@ -29,8 +29,7 @@ git clone https://github.com/AngeloHale/hacker-scanner.git
 ### Instalação das dependências
 
 Execute o comando abaixo para instalar as dependências necessárias:
-
-pip3 install -r requirements.txt
+```pip3 install -r requirements.txt
 ```
 
 ## Como usar
